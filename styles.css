@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+  background: #F9F7F7;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#input-resultado{
+  text-align:right
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.botao {
+  padding: 15px;
+  background: #3F72AF;
+  color: white;
+  border: 0.5px solid black;
+}
+
+.botao:hover {
+  background: #112D4E;
+  color: white;
+}
+.botao:active {
+  background: #112D4E !important;
+  color: white !important;
+  border: 0.5px solid black !important;
+}
+

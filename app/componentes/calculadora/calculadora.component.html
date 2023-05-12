@@ -1,0 +1,21 @@
+<div class="row">
+    <input class="form-control" type="text" disabled name="resultado" id="input-resultado" [value]="resultado">
+</div>
+
+<br>
+
+<div class="row">
+    <button type="button" class="col-4 btn botao rounded-0" (click)="preencheResultado('0')">0</button>
+    <button type="button" class="col-4 btn botao rounded-0" (click)="preencheResultado('1')">1</button>
+    <button type="button" class="col-4 btn botao rounded-0" (click)="preencheResultado('+')">+</button>
+</div>
+
+<div class="row">
+    <button type="button" class="col-4 btn botao rounded-0" (click)="limpar()">CE</button>
+    <button type="button" class="col-4 btn botao rounded-0" (click)="apagar()"><i class="bi bi-backspace"></i></button>
+    <button type="button" class="col-4 btn botao rounded-0" (click)="avaliaResultado()">=</button>
+</div>
+<br>
+<div class="row">
+    <app-historico></app-historico>
+</div>

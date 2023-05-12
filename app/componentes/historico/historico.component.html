@@ -1,0 +1,7 @@
+<div class="item">
+    <input type="button" value="Limpar Histórico" class="botao-historico" (click)="limparHistorico()">
+    <li *ngFor="let resultado of resultados">
+        <p> {{resultado.input}} </p>
+        <p> {{resultado.valor}} </p>
+    </li>
+</div>

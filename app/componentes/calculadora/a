@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="calc-body">
+        <div class="calc-screen">
+
+            <div class="calc-typed">01101</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="button c">0</div>
+            <div class="button l">1</div>
+            <div class="button l">+</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="button">C</div>
+            <div class="button">=</div>
+        </div>
+    </div>

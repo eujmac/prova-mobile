@@ -1,0 +1,16 @@
+.item {
+  background: #C0C0C0;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.item li {
+  list-style-type: none;
+  text-align: right;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.botao-historico{
+    min-width: 100%;
+}
